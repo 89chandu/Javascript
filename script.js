@@ -3,7 +3,7 @@ const callButton = document.getElementById('call-button');
 
 callButton.addEventListener('click', function() {
 
-    alert("Calling the given number...");
+   
 
     // Here, you can perform the desired action when the button is clicked
 
@@ -19,6 +19,7 @@ callButton.addEventListener('click', function() {
     console.log('Phone:', number);
     console.log('Date:', date);
     console.log('Time:', time);
+     alert("Calling the given number...");
 
     
     
